@@ -1,9 +1,9 @@
-select * from queryHistory where email='superquery@ikala.cc' and boardName='My first dashboard'
+select * from queryHistory where email ='superquery@ikala.cc'
 
-/*
+/* 
 Explore query history further by adding more fields to your query.
 
-cost - Cost of your query after any cost-savings via cache are applied.
+cost - Cost of your query after any cost-savings via cache are applied. 
 savedCosts - How much $ saved as a result of using cache.
 savedBytes - # of bytes that were saved as a result of using cache.
 status - Whether your query executed (true) or had an error (false)
