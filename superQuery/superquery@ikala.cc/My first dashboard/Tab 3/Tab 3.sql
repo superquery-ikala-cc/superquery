@@ -1,4 +1,3 @@
-select author.name
-FROM `gcp-expert-sandbox-jim.superquery.github_repos_commits` as commits_asc
-ORDER BY author.time_sec asc
-LIMIT 5
+SELECT *
+FROM `gcp-expert-sandbox-jim.superquery.github_repos_commits` AS `gthb_rps_cmmts` 
+LIMIT 1000
